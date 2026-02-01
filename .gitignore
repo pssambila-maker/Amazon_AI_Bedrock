@@ -1,0 +1,31 @@
+# AWS sensitive files
+.agent_arn
+.aws/
+credentials
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.egg-info/
+dist/
+build/
+
+# Bedrock AgentCore runtime files
+.bedrock_agentcore/
+.bedrock_agentcore.yaml
